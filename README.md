@@ -13,17 +13,17 @@
 
 ### 👨‍💻 Sobre mim:
 - 🤖 Atualmente trabalho com **RPA (Automação de Processos Robóticos)**.
-- 🐍 Estou focado em aprofundar meus conhecimentos em **Python** e suas aplicações em automação e desenvolvimento web.
-- 🌱 Buscando aprender mais sobre Data Science e Machine Learning.
+- 🐍 Focado em aprofundar meus conhecimentos em **Python** e **Java** para desenvolvimento de software.
+- 🌱 Buscando aprender mais sobre Data Science e arquiteturas de software robustas.
 - Pronomes: Ele/Dele
 
 ---
 
-### 🛠️ Tecnologias e Ferramentas:
+### 🛠️ Principais Tecnologias:
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,django,flask,fastapi,git,docker,mysql,postgres,mongodb,linux" />
+    <img src="https://skillicons.dev/icons?i=java,python,django,git,docker,mysql,postgres,linux" />
   </a>
 </p>
 
