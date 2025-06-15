@@ -35,7 +35,7 @@
   <a href="mailto:eduardogrunitzky@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
   </a>
-  <a href="https://www.linkedin.com/in/SEU_USUARIO_AQUI/" target="_blank">
+  <a href="www.linkedin.com/in/eduardo-grunitzky-65400b1b1" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
 </p>
