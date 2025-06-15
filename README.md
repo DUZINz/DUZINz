@@ -12,10 +12,18 @@
 ---
 
 ### 👨‍💻 Sobre mim:
-- 🤖 Atualmente trabalho com **RPA (Automação de Processos Robóticos)**.
-- 🐍 Focado em aprofundar meus conhecimentos em **Python** e **Java** para desenvolvimento de software.
-- 🌱 Buscando aprender mais sobre Data Science e arquiteturas de software robustas.
+- 🤖 Apaixonado por automação e desenvolvimento de software, com experiência em **RPA**.
+- 🐍 Focado em aprofundar meus conhecimentos nas linguagens **Python** e **Java**.
+- 🌱 Atualmente estudando **Data Science** e melhores práticas em **arquiteturas de software**.
 - Pronomes: Ele/Dele
+
+---
+
+### 🚀 Projetos em Destaque
+
+- 🔭 **[Nome do Projeto 1](#):** Uma breve descrição do que o projeto faz e quais tecnologias você utilizou.
+- 🌱 **[Nome do Projeto 2](#):** Uma breve descrição do que o projeto faz e quais tecnologias você utilizou.
+- 🚀 **[Nome do Projeto 3](#):** Uma breve descrição do que o projeto faz e quais tecnologias você utilizou.
 
 ---
 
