@@ -15,7 +15,6 @@
 - 🤖 Atualmente trabalho com **RPA (Automação de Processos Robóticos)**.
 - 🐍 Focado em aprofundar meus conhecimentos em **Python** e **Java** para desenvolvimento de software.
 - 🌱 Buscando aprender mais sobre Data Science e arquiteturas de software robustas.
-- Pronomes: Ele/Dele
 
 ---
 
