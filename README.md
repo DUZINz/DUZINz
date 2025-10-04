@@ -1,14 +1,5 @@
 ### Olá, eu sou o Eduardo! 👋
 
-<p align="left">
-  <a href="https://github.com/DUZINz">
-    <img src="https://github-readme-stats.vercel.app/api?username=DUZINz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  </a>
-  <a href="https://github.com/DUZINz">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DUZINz&layout=compact&langs_count=8&theme=dracula"/>
-  </a>
-</p>
-
 ---
 
 ### 👨‍💻 Sobre mim:
