@@ -20,9 +20,10 @@
 ### 🎓
 **Formação**
 
-<!-- SEU CURSO -->
-<!-- INSTITUIÇÃO -->
-<!-- ano / cursando -->
+`⚠️ PREENCHER`
+
+**Curso**
+Instituição · ano
 
 </td>
 <td width="33%" align="center">
