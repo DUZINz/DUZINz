@@ -21,20 +21,21 @@
 
 ## 🤖 Sobre mim
 
-```python
-class Eduardo:
-    def __init__(self):
-        self.atuacao   = "RPA — Automação de Processos Robóticos"
-        self.stack     = ["Python", "Java"]
-        self.estudando = ["Data Science", "Arquitetura de Software"]
-        self.foco      = "transformar processo manual em processo que roda sozinho"
+```console
+$ whoami
+eduardo@rpa:~$ Analista de Automação de Processos (RPA)
 
-    def dia_a_dia(self):
-        while tem_tarefa_repetitiva():
-            yield automatizar()
+$ cat stack.txt
+Python  ████████████░░░  principal
+Java    ████████░░░░░░░  em evolução
+
+$ tail -f estudando.log
+[Data Science] .............. em andamento
+[Arquitetura de Software] .... em andamento
+
+$ ./missao.sh
+> transformar processo manual em processo que roda sozinho
 ```
-
-> Trabalho com automação de processos e estou aprofundando **Python** e **Java** para desenvolvimento de software — com olho em **Data Science** e **arquiteturas robustas**.
 
 ---
 
@@ -66,8 +67,6 @@ class Eduardo:
 <img src="https://img.shields.io/github/stars/DUZINz?style=for-the-badge&color=00D9C0&labelColor=0D1117&logo=github&logoColor=white&label=ESTRELAS&affiliations=OWNER" />
 
 <img height="170" src="https://streak-stats.vercel.app/?user=DUZINz&hide_border=true&background=00000000&ring=6C63FF&fire=00D9C0&currStreakLabel=6C63FF&sideLabels=808080&currStreakNum=808080&sideNums=808080&dates=808080&stroke=30363D&locale=pt_BR" />
-
-<img src="https://ghchart.rshah.org/6C63FF/DUZINz" width="85%" alt="Gráfico de contribuições" />
 
 </div>
 
