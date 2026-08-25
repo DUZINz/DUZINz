@@ -1,83 +1,76 @@
-<div align="center">
+## Eduardo Grunitzky
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00D9C0&height=200&section=header&text=Eduardo%20Grunitzky&fontSize=48&fontColor=ffffff&fontAlignY=32&desc=RPA%20%C2%B7%20Python%20%C2%B7%20Java&descSize=18&descAlignY=52" width="100%" />
+Analista de **RPA**. Meu trabalho é pegar um processo que alguém repete na mão toda
+semana e devolver ele rodando sozinho.
 
-<a href="https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:eduardogrunitzky@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/DUZINz?tab=repositories">
-  <img src="https://img.shields.io/badge/Projetos-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=DUZINz&style=for-the-badge&color=6C63FF&label=VISITAS" />
+Fora do expediente eu construo ferramentas de prospecção — porque o processo comercial
+acabou sendo o mais manual de todos que eu encontrei.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=6C63FF&center=true&vCenter=true&width=650&height=45&lines=Automatizo+o+que+ningu%C3%A9m+quer+fazer+na+m%C3%A3o;RPA+%7C+Python+%7C+Java;Software+que+resolve+problema+real" />
-
-</div>
+<a href="https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/">LinkedIn</a> ·
+<a href="mailto:eduardogrunitzky@gmail.com">eduardogrunitzky@gmail.com</a>
 
 ---
 
-## 🤖 Sobre mim
+## O pipeline que eu construí
 
-```console
-$ whoami
-eduardo@rpa:~$ Analista de Automação de Processos (RPA)
+Não são projetos soltos: é uma esteira comercial inteira, montada em duas linguagens
+ao longo de duas iterações.
 
-$ cat stack.txt
-Python  ████████████░░░  principal
-Java    ████████░░░░░░░  em evolução
+```mermaid
+flowchart LR
+    A["OpenStreetMap<br/>Overpass API"] --> B["Filtro<br/>sem site próprio"]
+    B --> C["Motor de score<br/>porte · idade · canal"]
+    C --> D["Copy gerada<br/>por lead"]
+    D --> E["WhatsApp<br/>1 clique"]
 
-$ tail -f estudando.log
-[Data Science] .............. em andamento
-[Arquitetura de Software] .... em andamento
-
-$ ./missao.sh
-> transformar processo manual em processo que roda sozinho
+    P["prospector · Python<br/>v1 — Google Maps"] -.-> B
+    L["lead-radar · Node<br/>v2 — base aberta"] -.-> A
 ```
 
----
+### [lead-radar](https://github.com/DUZINz/lead-radar) · JavaScript
 
-## 🛠️ Stack
+Plataforma de mineração e qualificação de leads B2B. Base 100% real via OpenStreetMap,
+motor de scoring próprio e copy de abordagem gerada por lead.
 
-<div align="center">
+**A decisão que importa:** roda em dois ambientes com um único `server.mjs` — SQLite local,
+serverless na Vercel — sem `if` espalhado pelo código. O ambiente é detectado uma vez e a
+camada de persistência é trocada; em serverless o `import` de `node:sqlite` simplesmente
+nunca acontece e o estado passa a viver no navegador.
 
-**Linguagens**
+**Zero dependências.** 748 linhas, só `node:http` e `node:sqlite` da stdlib. Sem build step.
 
-<img src="https://skillicons.dev/icons?i=python,java" height="52" />
+### [prospector](https://github.com/DUZINz/prospector) · Python
 
-**Frameworks & Dados**
+A v1 da mesma tese: acha negócio que **não tem site** — o lead ideal pra quem vende
+presença digital. Google Maps como fonte, saída com telefone, WhatsApp e nota.
 
-<img src="https://skillicons.dev/icons?i=django,postgres,mysql" height="52" />
+### [finrisk-processor](https://github.com/DUZINz/finrisk-processor) · Java
 
-**Ferramentas & Infra**
+Avaliação de risco financeiro em arquitetura modular. **Chain of Responsibility** para
+validações encadeadas, **Strategy** para trocar o algoritmo de risco em runtime, modelos
+imutáveis e orquestração isolada em serviço.
 
-<img src="https://skillicons.dev/icons?i=git,docker,linux" height="52" />
+### [dashboard_data](https://github.com/DUZINz/dashboard_data) · Python
 
-</div>
-
----
-
-## 📊 GitHub em números
-
-<div align="center">
-
-<img src="https://img.shields.io/github/followers/DUZINz?style=for-the-badge&color=6C63FF&labelColor=0D1117&logo=github&logoColor=white&label=SEGUIDORES" />
-<img src="https://img.shields.io/github/stars/DUZINz?style=for-the-badge&color=00D9C0&labelColor=0D1117&logo=github&logoColor=white&label=ESTRELAS&affiliations=OWNER" />
-
-<img height="170" src="https://streak-stats.vercel.app/?user=DUZINz&hide_border=true&background=00000000&ring=6C63FF&fire=00D9C0&currStreakLabel=6C63FF&sideLabels=808080&currStreakNum=808080&sideNums=808080&dates=808080&stroke=30363D&locale=pt_BR" />
-
-</div>
+Upload de Excel/CSV → processamento → dashboard. O caminho curto entre planilha e decisão.
 
 ---
 
-<div align="center">
+## Como eu trabalho
 
-### 💬 Bora trocar ideia sobre automação?
+**Dependência é dívida.** Se dá pra resolver com a stdlib, resolve com a stdlib. O
+lead-radar inteiro não tem um `node_modules` porque não precisou ter.
 
-Chama no [LinkedIn](https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/) ou no [e-mail](mailto:eduardogrunitzky@gmail.com).
+**Automação sem medição é fé.** Bot que roda mas ninguém sabe quanto tempo economizou é
+bot que vai ser desligado no primeiro incidente.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9C0,100:6C63FF&height=120&section=footer" width="100%" />
+**O código difícil não é o que funciona.** É o que continua funcionando quando o site muda
+o HTML, a API muda o schema e o servidor cai no meio da execução.
 
-</div>
+---
+
+## Stack
+
+**Diário** — Python, Java  
+**Construindo com** — Node.js, PostgreSQL, MySQL, Docker, Git, Linux  
+**Estudando** — Data Science, arquitetura de software
