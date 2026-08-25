@@ -13,7 +13,7 @@
 </a>
 <img src="https://komarev.com/ghpvc/?username=DUZINz&style=for-the-badge&color=6C63FF&label=VISITAS" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=6C63FF&center=true&vCenter=true&width=520&lines=Automatizo+o+que+ningu%C3%A9m+quer+fazer+na+m%C3%A3o;RPA+%7C+Python+%7C+Java;Construindo+software+que+resolve+problema+real" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=6C63FF&center=true&vCenter=true&width=650&height=45&lines=Automatizo+o+que+ningu%C3%A9m+quer+fazer+na+m%C3%A3o;RPA+%7C+Python+%7C+Java;Software+que+resolve+problema+real" />
 
 </div>
 
