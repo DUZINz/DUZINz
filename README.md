@@ -31,44 +31,111 @@ do que deu errado.
 
 ## 🎮 Clica no teu problema
 
+<div align="center">
+
+**4 problemas · clica no que parece com o teu · tem um segundo nível dentro de cada um**
+
+</div>
+
 <details>
-<summary><b>💸 "Todo mês alguém copia dados de um sistema pro outro na mão"</b></summary>
+<summary><b>&nbsp;💸&nbsp; "Todo mês alguém copia dados de um sistema pro outro na mão"</b></summary>
 
 <br>
 
-Isso é bot. Leitura na origem, validação, gravação no destino, log de tudo que passou
-e do que falhou. Você recebe o resumo pronto e nunca mais abre aquela planilha.
+|  | Hoje | Com bot |
+|---|---|---|
+| **Quem faz** | uma pessoa, manhã inteira | ninguém |
+| **Erro de digitação** | acontece e ninguém vê | impossível |
+| **Se falhar** | descobre no fechamento | alerta na hora |
+
+`Esforço humano por rodada`
+
+Hoje &nbsp;&nbsp;&nbsp;&nbsp; 🟥🟥🟥🟥🟥🟥🟥🟥
+Com bot &nbsp; 🟩⬜⬜⬜⬜⬜⬜⬜
+
+<details>
+<summary>🔍 <i>ver como eu faço</i></summary>
+
+<br>
+
+**1.** Leio a origem — banco, API, arquivo ou a própria tela
+**2.** Valido cada registro antes de gravar (lixo não entra)
+**3.** Gravo no destino e guardo o log linha a linha
+**4.** Te mando o resumo: passou X, falhou Y, e por quê
+
+</details>
 
 </details>
 
 <details>
-<summary><b>📄 "Preciso do mesmo relatório toda segunda-feira, sem falta"</b></summary>
+<summary><b>&nbsp;📄&nbsp; "Preciso do mesmo relatório toda segunda, sem falta"</b></summary>
 
 <br>
 
-Rotina agendada: busca o dado na fonte, trata, formata e entrega no e-mail ou no painel.
-Segunda de manhã ele já está lá — e se a fonte estiver fora do ar, você é avisado antes
-de perguntarem por ele.
+|  | Hoje | Com bot |
+|---|---|---|
+| **Quando fica pronto** | quando alguém lembra | segunda, 7h |
+| **Se a fonte cair** | você descobre na reunião | você é avisado antes |
+| **Formato** | refeito toda vez | idêntico sempre |
+
+<details>
+<summary>🔍 <i>ver como eu faço</i></summary>
+
+<br>
+
+**1.** Agendo a rotina no horário que te serve
+**2.** Busco o dado na fonte e trato o que vier torto
+**3.** Monto o arquivo no formato que você já usa
+**4.** Entrego no e-mail ou no painel — e aviso se algo travou
+
+</details>
 
 </details>
 
 <details>
-<summary><b>🔒 "O sistema que a gente usa não tem API"</b></summary>
+<summary><b>&nbsp;🔒&nbsp; "O sistema que a gente usa não tem API"</b></summary>
 
 <br>
 
-Nem sempre precisa ter. Dá pra automatizar pela interface, pelo banco ou pelo arquivo
-que ele exporta. Sistema fechado atrasa a automação — não impede.
+Sistema fechado **atrasa** a automação, não impede. Tem sempre uma porta:
+
+| Porta | Quando uso |
+|---|---|
+| 🗄️ **Banco de dados** | quando tenho acesso de leitura |
+| 📁 **Arquivo exportado** | quando o sistema cospe CSV/Excel |
+| 🖱️ **Interface** | quando não sobrou nenhuma das outras |
+
+<details>
+<summary>🔍 <i>ver como eu faço</i></summary>
+
+<br>
+
+**1.** Testo as portas nessa ordem — da mais estável pra menos
+**2.** Isolo a parte frágil num só lugar do código
+**3.** Se o sistema mudar, conserto num ponto, não em vinte
+
+</details>
 
 </details>
 
 <details>
-<summary><b>🛠️ "O que eu preciso não existe pronto no mercado"</b></summary>
+<summary><b>&nbsp;🛠️&nbsp; "O que eu preciso não existe pronto no mercado"</b></summary>
 
 <br>
 
-Então se constrói. Back-end, API, aplicação web — do zero até rodando, no tamanho
-do problema e não no tamanho do orçamento de uma suíte enterprise.
+Então se constrói. Back-end, API, aplicação web — no tamanho do teu problema,
+não no tamanho do orçamento de uma suíte enterprise.
+
+<details>
+<summary>🔍 <i>ver como eu faço</i></summary>
+
+<br>
+
+**1.** Entendo o processo antes de escrever a primeira linha
+**2.** Entrego a menor versão que já resolve — e você usa
+**3.** Cresço em cima do que provou funcionar
+
+</details>
 
 </details>
 
