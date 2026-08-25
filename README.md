@@ -62,12 +62,12 @@ class Eduardo:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DUZINz&show_icons=true&hide_border=true&bg_color=00000000&title_color=6C63FF&icon_color=00D9C0&text_color=808080&include_all_commits=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DUZINz&layout=compact&hide_border=true&bg_color=00000000&title_color=6C63FF&text_color=808080&langs_count=8" />
+<img src="https://img.shields.io/github/followers/DUZINz?style=for-the-badge&color=6C63FF&labelColor=0D1117&logo=github&logoColor=white&label=SEGUIDORES" />
+<img src="https://img.shields.io/github/stars/DUZINz?style=for-the-badge&color=00D9C0&labelColor=0D1117&logo=github&logoColor=white&label=ESTRELAS&affiliations=OWNER" />
 
-<img height="165" src="https://streak-stats.demolab.com?user=DUZINz&hide_border=true&background=00000000&ring=6C63FF&fire=00D9C0&currStreakLabel=6C63FF&sideLabels=808080&currStreakNum=808080&sideNums=808080&dates=808080" />
+<img height="170" src="https://streak-stats.vercel.app/?user=DUZINz&hide_border=true&background=00000000&ring=6C63FF&fire=00D9C0&currStreakLabel=6C63FF&sideLabels=808080&currStreakNum=808080&sideNums=808080&dates=808080&stroke=30363D&locale=pt_BR" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=DUZINz&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+<img src="https://ghchart.rshah.org/6C63FF/DUZINz" width="85%" alt="Gráfico de contribuições" />
 
 </div>
 
