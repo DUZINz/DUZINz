@@ -1,8 +1,8 @@
 <div align="center">
 
-# Eduardo Grunitzky
+<img src="./assets/hero.svg" width="100%" alt="Eduardo Grunitzky — RPA e Automação de Processos" />
 
-### Automação de Processos · RPA
+<br><br>
 
 <a href="https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -11,29 +11,86 @@
 
 </div>
 
----
+<br>
 
-### 🎓 Formação
+<table>
+<tr>
+<td width="33%" align="center">
 
-**<!-- SEU CURSO AQUI -->** — <!-- INSTITUIÇÃO -->  <!-- ano de conclusão / em andamento -->
+### 🎓
+**Formação**
 
-### 💼 O que eu faço
+<!-- SEU CURSO -->
+<!-- INSTITUIÇÃO -->
+<!-- ano / cursando -->
 
-Trabalho com **RPA — Automação de Processos Robóticos**. Tarefa que uma pessoa repete
-toda semana eu transformo em rotina que roda sozinha, com log do que deu certo e alerta
-do que deu errado.
+</td>
+<td width="33%" align="center">
 
-### 🧰 O que eu sei fazer
+### 💼
+**No que trabalho**
 
-`Python` · `Java` · `Node.js` · `PostgreSQL` · `MySQL` · `Docker` · `Linux` · `Git`
+Automação de
+Processos — **RPA**
 
----
+</td>
+<td width="33%" align="center">
+
+### 🎯
+**O que entrego**
+
+Tarefa manual virando
+rotina que roda sozinha
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+### 🧰 Com o que eu construo
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<br>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<br>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+<br><br>
+
+### ⚙️ Como uma automação minha nasce
+
+</div>
+
+```mermaid
+flowchart LR
+    A(["🔍&nbsp; MAPEIO"]) --> B(["🤖&nbsp; AUTOMATIZO"]) --> C(["📊&nbsp; MEÇO"])
+    A -.- a["entendo o processo<br/>antes do código"]
+    B -.- b["a solução simples<br/>que resolve mesmo"]
+    C -.- c["automação sem número<br/>é fé, não engenharia"]
+
+    style A fill:#6C63FF,stroke:#6C63FF,color:#fff
+    style B fill:#8B5CF6,stroke:#8B5CF6,color:#fff
+    style C fill:#00D9C0,stroke:#00D9C0,color:#062b26
+    style a fill:none,stroke:none,color:#8B94A8
+    style b fill:none,stroke:none,color:#8B94A8
+    style c fill:none,stroke:none,color:#8B94A8
+```
+
+<br>
 
 ## 🎮 Clica no teu problema
 
 <div align="center">
 
-**4 problemas · clica no que parece com o teu · tem um segundo nível dentro de cada um**
+**quatro problemas · abre o que parece com o teu · tem um segundo nível dentro**
 
 </div>
 
@@ -42,16 +99,16 @@ do que deu errado.
 
 <br>
 
-|  | Hoje | Com bot |
+|  | 🔴 Hoje | 🟢 Com bot |
 |---|---|---|
 | **Quem faz** | uma pessoa, manhã inteira | ninguém |
 | **Erro de digitação** | acontece e ninguém vê | impossível |
 | **Se falhar** | descobre no fechamento | alerta na hora |
 
-`Esforço humano por rodada`
+**Esforço humano por rodada**
 
-Hoje &nbsp;&nbsp;&nbsp;&nbsp; 🟥🟥🟥🟥🟥🟥🟥🟥
-Com bot &nbsp; 🟩⬜⬜⬜⬜⬜⬜⬜
+🟥🟥🟥🟥🟥🟥🟥🟥 &nbsp;`hoje`
+🟩⬜⬜⬜⬜⬜⬜⬜ &nbsp;`com bot`
 
 <details>
 <summary>🔍 <i>ver como eu faço</i></summary>
@@ -72,7 +129,7 @@ Com bot &nbsp; 🟩⬜⬜⬜⬜⬜⬜⬜
 
 <br>
 
-|  | Hoje | Com bot |
+|  | 🔴 Hoje | 🟢 Com bot |
 |---|---|---|
 | **Quando fica pronto** | quando alguém lembra | segunda, 7h |
 | **Se a fonte cair** | você descobre na reunião | você é avisado antes |
@@ -99,11 +156,11 @@ Com bot &nbsp; 🟩⬜⬜⬜⬜⬜⬜⬜
 
 Sistema fechado **atrasa** a automação, não impede. Tem sempre uma porta:
 
-| Porta | Quando uso |
-|---|---|
-| 🗄️ **Banco de dados** | quando tenho acesso de leitura |
-| 📁 **Arquivo exportado** | quando o sistema cospe CSV/Excel |
-| 🖱️ **Interface** | quando não sobrou nenhuma das outras |
+| Porta | Quando uso | Estabilidade |
+|---|---|---|
+| 🗄️ **Banco de dados** | tenho acesso de leitura | 🟩🟩🟩 |
+| 📁 **Arquivo exportado** | o sistema cospe CSV/Excel | 🟩🟩⬜ |
+| 🖱️ **Interface** | não sobrou nenhuma das outras | 🟩⬜⬜ |
 
 <details>
 <summary>🔍 <i>ver como eu faço</i></summary>
@@ -143,8 +200,9 @@ não no tamanho do orçamento de uma suíte enterprise.
 
 <div align="center">
 
-**Tem um processo que ninguém aguenta mais fazer na mão?**
+### Tem um processo que ninguém aguenta mais fazer na mão?
 
-[Me chama no LinkedIn](https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/)
+<a href="https://www.linkedin.com/in/eduardo-grunitzky-65400b1b1/">
+<img src="https://img.shields.io/badge/Me_chama_no_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 </div>
